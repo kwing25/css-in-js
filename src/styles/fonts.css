@@ -5,3 +5,11 @@
     font-display: swap;
     src: url(../assets/fonts/Bontang.otf) format("opentype");
 }
+
+@font-face {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 100 499;
+    font-display: swap;
+    src: url(../assets/fonts/Comfortaa-Variable_wght.ttf) format("truetype");
+}

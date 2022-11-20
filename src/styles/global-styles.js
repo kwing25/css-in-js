@@ -6,11 +6,12 @@ const colors = {
 
 const globalStyles = {
     body: {
-        fontFamily: "Botang",
+        fontFamily: "Comfortaa",
         backgroundColor: colors.primaryPink,
     },
 
     h1: {
+        fontFamily: "Botang",
         fontSize: 130,
 
     }
