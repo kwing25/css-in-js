@@ -1,15 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from "react-dom";
 import App from './App';
+import {GlobalStyles} from 'tss-react'
+import { CacheProvider } from "@emotion/react";
+import createCache from "@emotion/cache";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import "./styles/fonts.css"
+import globalStyles from './styles/global-styles'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+export const muiCache = createCache({
+  key: "mui",
+  prepend: true,
+});
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <CacheProvider value={muiCache}>
+    <GlobalStyles styles={globalStyles}/>
+      <App />
+    </CacheProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
