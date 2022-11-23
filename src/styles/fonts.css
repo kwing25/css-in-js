@@ -9,7 +9,63 @@
 @font-face {
     font-family: Comfortaa;
     font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../assets/fonts/Comfortaa-Variable_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: ComfortaaBold;
+    font-style: normal;
     font-weight: 100 499;
     font-display: swap;
     src: url(../assets/fonts/Comfortaa-Variable_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: FRReg;
+    font-style: normal;
+    font-weight: 100 499;
+    font-display: swap;
+    src: url(../assets/fonts/fr-bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: FRTitle;
+    font-style: normal;
+    font-weight: 100 499;
+    font-display: swap;
+    src: url(../assets/fonts/fr-title.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Mbkaos;
+    font-style: normal;
+    font-weight: 100 499;
+    font-display: swap;
+    src: url(../assets/fonts/Mbkaos.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 100 499;
+    font-display: swap;
+    src: url(../assets/fonts/Outfit-Variable_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OutfitBold;
+    font-style: normal;
+    font-weight: 700 1000;
+    font-display: swap;
+    src: url(../assets/fonts/Outfit-Variable_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OutfitSemibold;
+    font-style: normal;
+    font-weight: 500 699;
+    font-display: swap;
+    src: url(../assets/fonts/Outfit-Variable_wght.ttf) format("truetype");
 }
