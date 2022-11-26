@@ -1,25 +1,12 @@
-:root {
-    /* --dark-sienna: #2B1219ff;
---prussian-blue: #163955ff;
---steel-teal: #5A8186ff;
---spanish-orange: #EB6508ff;
---safety-orange: #FB7A13ff;
---orange-peel: #FE9F16ff;
---brandy: #963F3Bff;
---deep-taupe: #876A5Fff;
---almond: #E3D5C7ff;
---lavender-blush: #F8E7E6ff; */
 
-/* --caribbean-green: #00D09Fff;
---rose-madder: #D83A3Aff;
---cornsilk: #F8F2D6ff;
---brandy: #8F3532ff;
---black: #010100ff;
---viridian: #408975ff;
---light-green: #A8F9B0ff; */
-}
+/* 
+html {
+  height: 100%;
+  width: 100%;
+} */
 
 .App {
-  text-align: center;
-}
 
+  text-align: center;
+
+}
