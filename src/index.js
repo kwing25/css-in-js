@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import App from './App';
-import {GlobalStyles} from 'tss-react'
+import {GlobalStyles} from 'tss-react';
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
 import reportWebVitals from './reportWebVitals';
-import "./styles/fonts.css"
-import globalStyles from './styles/global-styles'
+import "./styles/fonts.css";
+import globalStyles from './styles/global-styles';
 
 export const muiCache = createCache({
   key: "mui",
@@ -23,8 +23,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

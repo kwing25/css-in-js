@@ -21,21 +21,19 @@ function Landing() {
 const useStyles = makeStyles()((_, props) => ({
 
     landing: {
-        display: 'grid',
-        height: '100%',
+        display: 'flex',
+        height: '100vh',
         width: '100vw',
         alignItems: 'center',
-        gridTemplateColumns: '1fr 1fr',
-        gridTemplateRows: '1fr',
     },
     intro: {
         display: 'block',
         padding: '10px',
     },
-    // lottieWrapper: {
-    //     height: '50vh',
-    //     width: '50vw',
-    // }
+    lottieWrapper: {
+        height: 'auto',
+        // width: '50vw',
+    }
 
 }))
 

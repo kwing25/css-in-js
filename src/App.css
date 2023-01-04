@@ -6,7 +6,13 @@ html {
 } */
 
 .App {
-
+overflow: hidden;
   text-align: center;
 
+}
+
+p {
+  box-shadow: #D83A3A 0px 0px 10px 15px;
+border-radius: 20px;
+padding: 40px;
 }

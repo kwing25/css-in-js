@@ -7,7 +7,7 @@ const globalStyles = {
     body: {
         fontFamily: "Outfit",
         overscrollBehaviorY: "none",
-
+overflow: "scroll",
     },
     h1: {
         fontFamily: "OutfitBold",
@@ -28,8 +28,11 @@ const globalStyles = {
       },
     p: {
         fontFamily: "FRTitle",
-        fontSize: 20,
-        letterSpacing: "1px",
+        fontSize: 45,
+        backgroundColor: theme.palette.brandTeal,
+color: theme.palette.brandRed,
+
+
     },
     // ".grid": {
     //     display: "grid",
